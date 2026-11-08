@@ -3,10 +3,10 @@
   <channel>
     <title>video-toolkit</title>
     <item>
-      <title>video-toolkit 0.19.2</title>
-      <pubDate>Sun, 08 Nov 2026 11:23:09 GMT</pubDate>
-      <sparkle:version>221</sparkle:version>
-      <sparkle:shortVersionString>0.19.2</sparkle:shortVersionString>
+      <title>video-toolkit 0.20.0</title>
+      <pubDate>Sun, 08 Nov 2026 14:03:59 GMT</pubDate>
+      <sparkle:version>224</sparkle:version>
+      <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin: 0 0 14px; }
@@ -19,8 +19,23 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version > .cur { display: block; color: #8E8E93; font-size: 0.92em; border-top: 1px solid #E5E5E5; padding-top: 6px; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="224">
+<h3>v0.20.0 <span class="tag">설치할 버전</span><small>2026. 11. 08.</small></h3>
+<ul>
+<li><b>작업 줄</b>: 머리 바로 아래 모든 화면에 공통 「작업」 줄이 생겼습니다. 돌고 있는 작업마다 도구 · 지금 파일 · n/N · 진행 막대 · % · ■ 중지가 보이고, 대기 중인 작업, 동시에/차례로, 「전체 보기 ▾」(실행 중 · 대기 중 · 최근 완료 판)가 있습니다. 사이드바의 「대기열」 항목은 없앴습니다.</li>
+<li><b>큰 단추를 맨 왼쪽에</b>: 번역 · 영상 도구 · 파일명 일괄 변경 화면 맨 위에 큰 단추(▶ 번역 시작 / ▶ 시작 / 이름 바꾸기)를 두고, 오른쪽으로 비우기 · 파일 추가… · 요약 한 줄이 이어집니다. 화면 제목 줄과 오른쪽 옵션 칸은 없앴습니다.</li>
+<li><b>옵션은 알약으로</b>: 이번 옵션이 큰 단추 아래 알약 한 줄로 보이고, 누르면 그 자리에서 바뀝니다. 옵션이 많은 도구(자막·음성 언어 정리, EZC 풀기)는 알약을 누르면 작은 판이 펼쳐집니다.</li>
+<li><b>실행 중에도 같은 화면</b>: 따로 뜨던 실행 화면을 없앴습니다. 큰 단추가 「■ 지금 중지」(⌘.)로 바뀌고, 그 아래 전체 진행 막대, 파일 표는 줄마다 상태(✓ 완료 · 걸린 시간 / 진행 % / 대기 / ✕ 이유)가 바뀝니다. 숫자는 표 아래 한 줄, 번역의 토큰 그래프 · 방금 번역된 줄은 「자세히 ▾」로 펼칩니다. 사이드바에는 돌고 있는 도구에 작은 점이 붙습니다.</li>
+<li><b>끝난 뒤</b>: 결과가 표에 남고, 실패가 있으면 큰 단추가 「↻ 실패만 다시」가 됩니다. 「지난 실행 결과」 상자는 없앴습니다.</li>
+<li><b>빈 화면 · 끌어 놓기</b>: 파일이 없을 때는 작은 안내 상자만 보이고, 파일은 창 어디에 끌어 놓아도 지금 도구로 들어갑니다. ⌘O 「파일 추가…」도 지금 화면 도구로 갑니다.</li>
+<li><b>단축키 통일</b>: ⌘↩ 시작 · ⌘. 지금 중지 · ⌘O 파일 추가.</li>
+<li><b>색</b>: 표 아이콘 · 「처리 예정」 글자 등에 쓰던 고정 파랑 대신 고른 머리 색을 씁니다.</li>
+<li><b>알림</b>: 완료 · 중단 알림을 누르면 그 도구 화면이 열립니다.</li>
+</ul>
+<p class="cur">v0.20.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="221">
-<h3>v0.19.2 <span class="tag">설치할 버전</span><small>2026. 11. 08.</small></h3>
+<h3>v0.19.2<small>2026. 11. 08.</small></h3>
 <ul>
 <li><b>설정 창 머리 크기</b>: 첫 줄을 52pt 로 높여 신호등 단추가 세로 가운데에 오고, 앱 아이콘 22pt · 「video-toolkit 설정」 15pt 굵게로 본 창 머리와 같은 크기입니다.</li>
 </ul>
@@ -86,7 +101,7 @@ section.sparkle-installed-version ~ section { display: none; }
 </ul>
 <p class="cur">v0.17.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.19.2.zip" length="59426873" type="application/octet-stream" sparkle:edSignature="t6GUWFSjW14I7Qe77JqRdIyYCgtts9t8Hd/Io49CxW+fFDhXku+CcnBK/bkBbaJAuGKsg8UHVeY7RUVbI3ObDA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.20.0.zip" length="59427881" type="application/octet-stream" sparkle:edSignature="ZGZVEQGkqBDJheCSACY7SB8+WUbwkKUgImFJAKlki9ZVtXnTLtMVMHDt0QmIOpzG7IDkKRWYrot6hXN1QX3WCg=="/>
     </item>
   </channel>
 </rss>
