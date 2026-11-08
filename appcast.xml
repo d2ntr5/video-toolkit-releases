@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>video-toolkit</title>
+    <item>
+      <title>video-toolkit 0.18.0</title>
+      <pubDate>Sun, 08 Nov 2026 09:45:13 GMT</pubDate>
+      <sparkle:version>213</sparkle:version>
+      <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>
+section { margin: 0 0 14px; }
+section h3 { margin: 0 0 4px; font-size: 1.05em; }
+section h3 small { color: #8E8E93; font-weight: normal; margin-left: 6px; }
+section h3 .tag { font-size: 0.75em; font-weight: 600; color: #fff; background: #13675E; border-radius: 4px; padding: 1px 5px; margin-left: 4px; }
+section ul { margin: 0; padding-left: 1.2em; }
+section .cur { display: none; }
+section.sparkle-installed-version > * { display: none; }
+section.sparkle-installed-version > .cur { display: block; color: #8E8E93; font-size: 0.92em; border-top: 1px solid #E5E5E5; padding-top: 6px; }
+section.sparkle-installed-version ~ section { display: none; }
+</style>
+<section data-sparkle-version="213">
+<h3>v0.18.0 <span class="tag">설치할 버전</span><small>2026. 11. 08.</small></h3>
+<ul>
+<li><b>앱 안 업데이트</b>: 새 버전을 앱이 자동으로 확인해 알려 줍니다(켤 때 · 잠자기에서 깨어날 때 · 그 뒤 주기적으로). 새 버전이 있으면 사이드바 맨 위 설정 톱니에 초록 「↓」 배지가 붙고, 톱니를 누르면 설정 › 업데이트 탭에서 바뀐 점과 「업데이트…」를 봅니다(「나중에」를 누르면 그 버전은 배지를 다시 띄우지 않음). 자동 설치는 하지 않고, 번역 · 영상 작업 중이면 끝난 뒤 설치할 수 있습니다.</li>
+<li>여러 버전이 쌓여 있으면 한 번에 가장 새 버전으로 올라가고, 그 사이 버전의 바뀐 점을 안내창에서 모두 보여 줍니다.</li>
+<li>업데이트 서버와 2번 연속 통신하지 못하면 설정 톱니와 업데이트 탭에 빨간 「!」 배지가 붙고 업데이트 탭에 빨간 안내가 나옵니다(확인 방법 · 자동 확인 끄기).</li>
+<li>이 버전부터 고정 인증서(video-toolkit Self-Signed)로 서명합니다. 이 버전은 한 번 직접 받아 덮어써 주세요. 그 뒤부터는 앱 안 업데이트로 받습니다.</li>
+<li><b>앱 머리</b>: 사이드바 맨 위에 아이콘 · video-toolkit · 버전 · 설정 톱니(⚙). 사이드바의 「설정」 항목은 뺐습니다(⌘, · 메뉴 「설정…」도 됨).</li>
+<li><b>설정 창</b>: 본 창 안 화면 → 따로 뜨는 이동 가능한 창. 탭은 위쪽 한 줄(계정 · 환경 · 번역 · 자막 파일 · 파일명 일괄 변경 · 화면 · 알림 · 업데이트 · 정보), 창 높이는 연 탭 내용대로 바뀌고 위 끝은 그 자리에 있습니다. 「완료」 또는 esc 로 닫습니다.</li>
+<li><b>머리 색</b>: 설정 › 화면 · 알림 › 머리 색에서 9가지(기본 청록) 중 고릅니다. 앱 머리 · 설정 머리 · 스위치 · 주 단추에 들어갑니다.</li>
+<li><b>업데이트 · 정보 탭</b>: 다른 앱과 같은 모양. 정보 탭은 앱 소개만(ffmpeg · claude 위치는 계정 · 환경 탭의 점검 결과에서 봅니다).</li>
+</ul>
+<p class="cur">v0.18.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v0.17.7<small></small></h3>
+<ul>
+<li>파일명 일괄 변경: 사이드바·빈 화면 아이콘이 한국어 환경에서 '가나다' 글자 기호로 바뀌어 옆 글자와 겹치던 것 고침 (아이콘을 글자 없는 기호로 바꿈).</li>
+</ul>
+<p class="cur">v0.17.7 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v0.17.6<small></small></h3>
+<ul>
+<li>시즌 정리: 제목 끝 번호를 시즌으로 잘못 읽던 것 고침 (예: <code>Kaiju No. 8 - 01</code> 이 시즌 8 로 읽힘, #6).</li>
+<li>MP4 변환: 같은 이름의 다른 형식(<code>영화.avi</code> + <code>영화.wmv</code>)이 같은 <code>영화.mp4</code> 로 가면 먼저 것만 변환하고 나머지는 이유를 보여 주며 건너뜀 (전에는 실행 중에 '정상 MP4 이미 있음' 으로 건너뜀).</li>
+<li>레터박스 제거: 1분보다 짧은 영상은 '프레임 추출 실패' 대신 '영상이 짧아 자동 감지 안 됨' 으로 알림.</li>
+<li>자막 변환: 도구 설명에서 실제로 지원하지 않는 VTT·ASS 입력 언급을 뺌 (SMI → SRT·ASS).</li>
+<li>기록: 0.17.3 전에 저장된 '이름 일괄 변경' 기록을 '파일명 일괄 변경' 으로 보여 줌 (#8).</li>
+<li>Claude 로그인 안내 창 문구의 앱 이름을 subko → video-toolkit 으로 고침.</li>
+<li>소스 정리: 폴더 <code>app/</code>, 코드 이름 <code>VideoToolkit*</code> (번들 식별자와 설정·기록 위치는 그대로).</li>
+</ul>
+<p class="cur">v0.17.6 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v0.17.5<small></small></h3>
+<ul>
+<li>파일명 일괄 변경: 이슈 #1~#4 수정.</li>
+</ul>
+<p class="cur">v0.17.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.18.0.zip" length="59420643" type="application/octet-stream" sparkle:edSignature="F18Q0/jkx7G9i9x5KCJhX/5cnNcNxApSWpXvWsPEJ73ecwRfJ0a3s/R+V3PVrWRTjK50DWDNc5/jwmMOo3OIBw=="/>
+    </item>
+  </channel>
+</rss>
