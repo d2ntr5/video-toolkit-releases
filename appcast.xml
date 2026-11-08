@@ -3,10 +3,10 @@
   <channel>
     <title>video-toolkit</title>
     <item>
-      <title>video-toolkit 0.20.1</title>
-      <pubDate>Sun, 08 Nov 2026 14:16:29 GMT</pubDate>
-      <sparkle:version>226</sparkle:version>
-      <sparkle:shortVersionString>0.20.1</sparkle:shortVersionString>
+      <title>video-toolkit 0.20.2</title>
+      <pubDate>Sun, 08 Nov 2026 16:08:55 GMT</pubDate>
+      <sparkle:version>227</sparkle:version>
+      <sparkle:shortVersionString>0.20.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin: 0 0 14px; }
@@ -19,8 +19,15 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version > .cur { display: block; color: #8E8E93; font-size: 0.92em; border-top: 1px solid #E5E5E5; padding-top: 6px; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="227">
+<h3>v0.20.2 <span class="tag">설치할 버전</span><small>2026. 11. 09.</small></h3>
+<ul>
+<li>개발용 정리(앱 동작은 그대로): 릴리즈 스크립트가 임시 폴더를 끝날 때 폴더째 지우고, 화면 확인용 복사본은 기록을 따로 두며 확인 뒤 설정 · 기록 · 빌드를 지웁니다(맥미니 디스크).</li>
+</ul>
+<p class="cur">v0.20.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="226">
-<h3>v0.20.1 <span class="tag">설치할 버전</span><small>2026. 11. 08.</small></h3>
+<h3>v0.20.1<small>2026. 11. 08.</small></h3>
 <ul>
 <li><b>실행 중 파일 추가 → 순서 대기</b>: 번역 · 영상 도구가 돌고 있을 때 「＋ 파일 추가」 · 끌어 놓기 · ⌘O 로 넣은 파일이 지금 파일 표 끝에 「대기」로 들어가고, 앞 파일이 끝나면 같은 실행에서 차례로 이어서 처리합니다(다시 시작하지 않음). 진행 요약 n/N · 전체 진행 막대 · 작업 줄도 늘어난 수로 바뀌고, 기록은 실행 하나로 남습니다.</li>
 <li>이미 표에 있는 파일을 다시 넣으면 중복으로 넣지 않습니다.</li>
@@ -110,7 +117,7 @@ section.sparkle-installed-version ~ section { display: none; }
 </ul>
 <p class="cur">v0.17.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.20.1.zip" length="59439899" type="application/octet-stream" sparkle:edSignature="rHgt57diK0HgbxgZ5a2JttGUI0e/NLjFGlkmbFW6NcNLaEi2YtC5Ppg/KC7kmXXIiXayDXvmxamoSSOugTKyAg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.20.2.zip" length="59439960" type="application/octet-stream" sparkle:edSignature="xAvEkYUG1DyztRLFhl+StD2M7P9lDKdz3s/Io6br+l5dUNWjXyNS0MmurAvF6IJTrMWtfLQ5sDVgfrVuHKALBw=="/>
     </item>
   </channel>
 </rss>
