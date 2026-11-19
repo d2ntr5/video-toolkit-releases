@@ -3,10 +3,10 @@
   <channel>
     <title>video-toolkit</title>
     <item>
-      <title>video-toolkit 0.26.2</title>
-      <pubDate>Thu, 19 Nov 2026 15:28:01 GMT</pubDate>
-      <sparkle:version>242</sparkle:version>
-      <sparkle:shortVersionString>0.26.2</sparkle:shortVersionString>
+      <title>video-toolkit 0.26.3</title>
+      <pubDate>Thu, 19 Nov 2026 16:13:08 GMT</pubDate>
+      <sparkle:version>243</sparkle:version>
+      <sparkle:shortVersionString>0.26.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin: 0 0 14px; }
@@ -19,8 +19,15 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version > .cur { display: block; color: #8E8E93; font-size: 0.92em; border-top: 1px solid #E5E5E5; padding-top: 6px; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="243">
+<h3>v0.26.3 <span class="tag">설치할 버전</span><small>2026. 11. 20.</small></h3>
+<ul>
+<li>다크 모드에서 설정 › 업데이트의 초록 상자(새 버전) · 빨간 상자(통신 문제) 제목이 어두워 잘 안 보이던 것을 고쳤습니다. 다크에서만 제목과 「●」를 밝게 씁니다 (앱 공통 표준).</li>
+</ul>
+<p class="cur">v0.26.3 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="242">
-<h3>v0.26.2 <span class="tag">설치할 버전</span><small>2026. 11. 20.</small></h3>
+<h3>v0.26.2<small>2026. 11. 20.</small></h3>
 <ul>
 <li>다크 모드에서 켜진 스위치 · 「완료」 같은 주 단추 · 「시작」 큰 단추가 어두운 머리 색이라 바탕과 잘 구별되지 않던 것을 고쳤습니다. 다크에서는 머리 색과 밝은 강조 글자의 중간색(청록이면 #59A494)을 씁니다. 머리 띠 색은 그대로입니다 (앱 공통 표준 display 1.2).</li>
 </ul>
@@ -202,7 +209,7 @@ section.sparkle-installed-version ~ section { display: none; }
 </ul>
 <p class="cur">v0.17.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.26.2.zip" length="59503401" type="application/octet-stream" sparkle:edSignature="wGrfQZu461LERTssiMexNO/bTi9rl/kfxO9Xai16v6xvv9+m4CgNUvTcD/987+4gbGWMOs287PCaQxzZiwlcAQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.26.3.zip" length="59503959" type="application/octet-stream" sparkle:edSignature="/YowvtEbOHzLstTLVPmZ6N/oTi2QBjgP18NP6KkgJEGcFWb4BAXdqnQM/r+FUGYRRnrm2Hj5ExqBNFjJO5YMAg=="/>
     </item>
   </channel>
 </rss>
