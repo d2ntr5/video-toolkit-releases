@@ -3,10 +3,10 @@
   <channel>
     <title>video-toolkit</title>
     <item>
-      <title>video-toolkit 0.26.3</title>
-      <pubDate>Thu, 19 Nov 2026 16:13:08 GMT</pubDate>
-      <sparkle:version>243</sparkle:version>
-      <sparkle:shortVersionString>0.26.3</sparkle:shortVersionString>
+      <title>video-toolkit 0.27.0</title>
+      <pubDate>Sun, 22 Nov 2026 23:30:22 GMT</pubDate>
+      <sparkle:version>248</sparkle:version>
+      <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin: 0 0 14px; }
@@ -19,8 +19,22 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version > .cur { display: block; color: #8E8E93; font-size: 0.92em; border-top: 1px solid #E5E5E5; padding-top: 6px; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="248">
+<h3>v0.27.0 <span class="tag">설치할 버전</span><small>2026. 11. 23.</small></h3>
+<ul>
+<li>설정에 「로그」 탭을 새로 두었습니다(업데이트 · 정보 바로 앞, 앱 공통 표준 logs).</li>
+<li>로그 넷을 따로 남깁니다: 앱(켜기 · 끄기 · 오류 · 경고, 20 MB), 업데이트(확인 결과 · 서버 통신 문제 · 설치 시작, 5 MB), 설정 변경(바꾼 값 ‘전 → 후’, 5 MB), 작업(도구 · 번역 작업마다 파일 이름 · 결과 · 걸린 시간 · 실패 이유, 20 MB).</li>
+<li>변환 도구의 「디버그 로그」(시각_이름.log)는 지금처럼 결과 폴더에 남고, 실패하면 작업 로그 줄에 그 파일 이름을 적습니다.</li>
+<li>로그마다 켜기 · 끄기 스위치와 「모두 켜기」 · 「모두 끄기」가 있고, 지금 크기 / 한도 · 파일 수를 막대와 함께 보여 줍니다.</li>
+<li>로그마다 파일 5개를 돌려 써서 한도를 넘지 않습니다.</li>
+<li>「지우기…」(한 로그) · 「로그 초기화…」(전체)는 확인 창을 거칩니다.</li>
+<li>「로그 내보내기…」는 모든 로그와 앱 · macOS 정보(info.txt)를 zip 하나(video-toolkit-logs-날짜-시각.zip)로 묶습니다.</li>
+<li>위치: ~/Library/Logs/video-toolkit. API 키 · 토큰 · 자막 본문 · 번역 글 · ffmpeg 전체 출력은 남기지 않습니다.</li>
+</ul>
+<p class="cur">v0.27.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="243">
-<h3>v0.26.3 <span class="tag">설치할 버전</span><small>2026. 11. 20.</small></h3>
+<h3>v0.26.3<small>2026. 11. 20.</small></h3>
 <ul>
 <li>다크 모드에서 설정 › 업데이트의 초록 상자(새 버전) · 빨간 상자(통신 문제) 제목이 어두워 잘 안 보이던 것을 고쳤습니다. 다크에서만 제목과 「●」를 밝게 씁니다 (앱 공통 표준).</li>
 </ul>
@@ -209,7 +223,7 @@ section.sparkle-installed-version ~ section { display: none; }
 </ul>
 <p class="cur">v0.17.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.26.3.zip" length="59503959" type="application/octet-stream" sparkle:edSignature="/YowvtEbOHzLstTLVPmZ6N/oTi2QBjgP18NP6KkgJEGcFWb4BAXdqnQM/r+FUGYRRnrm2Hj5ExqBNFjJO5YMAg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/video-toolkit-releases/main/releases/video-toolkit-0.27.0.zip" length="60017517" type="application/octet-stream" sparkle:edSignature="MDkNs+2rC7LmVZ0Pr12WQl42cCj+M7iSMmhuzvXKbaZRbACZP1jL4WrzrzidwwWr21OyLWUVgzaApQ9rDJivDw=="/>
     </item>
   </channel>
 </rss>
